@@ -13,6 +13,11 @@ export function APITester() {
       const url = new URL(endpoint, location.href);
       const method = formData.get("method") as string;
       const res = await fetch(url, { method });
+      
+      if (!res.ok) {
+        responseInputRef.current!.value = `Error ${res.status}: ${res.statusText}`;
+        return;
+      }
 
       const data = await res.json();
       responseInputRef.current!.value = JSON.stringify(data, null, 2);
