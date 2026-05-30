@@ -2,7 +2,7 @@
 
 ## Animated pixel gecko eating bugs
 
-![gecko eating bugs](./assets/gecko-eater.gif)
+![gecko eating bugs](./assets/gecko-eater.svg)
 
 ## GIF Badge Examples
 
