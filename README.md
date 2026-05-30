@@ -1,5 +1,9 @@
 # testt
 
+## Animated pixel gecko eating bugs
+
+![gecko eating bugs](./assets/gecko-eater.svg)
+
 ## GIF Badge Examples
 
 ### 1. Animated badge from shields.io with a GIF logo (using a URL-hosted GIF as logo isn't supported, but you can use animated SVG-style badges)
